@@ -21,8 +21,9 @@ class Session {
   }
 
   toString() {
-    return `${String(this.startHour).padStart(2, '0')}:${String(
-      this.startMinute
-    ).padStart(2, '0')}`;
+    return `${this.course}: ${String(this.startHour).padStart(
+      2,
+      '0'
+    )}:${String(this.startMinute).padStart(2, '0')}`;
   }
 }

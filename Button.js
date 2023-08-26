@@ -17,6 +17,7 @@ class Button {
   }
 
   show() {
+    // TODO: make this look nicer
     if (this.isSelected) {
       strokeWeight(2);
     } else {
