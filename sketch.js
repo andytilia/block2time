@@ -68,6 +68,10 @@ function createButtons() {
   });
 }
 
+function showMeetingTimes() {
+  // TODO: display list of all future meeting times for selected classes
+}
+
 function mousePressed() {
   buttons.forEach((b) => {
     if (b.isClicked(mouseX, mouseY)) {
